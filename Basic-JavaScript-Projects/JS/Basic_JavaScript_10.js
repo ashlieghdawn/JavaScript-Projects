@@ -56,3 +56,19 @@ let car={
 };
 document.getElementById("Car_Object").innerHTML=car.description();
 
+var text="";
+var i;
+for (i=0;i<10;i++){
+    if (i===3){break;}
+    text += "The number is " +i +"<br>";
+}
+document.getElementById("breaks").innerHTML=text;
+
+var text_2="";
+var h;
+for(h=0;h<10;h++){
+    if (h===3){continue;}
+    text += "The number is " + h + "<br>";
+}
+document.getElementById("continues").innerHTML=text;
+
